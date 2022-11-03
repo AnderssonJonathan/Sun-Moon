@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:black
+}
+
+#box{
+    display: flex;
+    flex-direction: row;
+    padding: 250px;
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-image: url("/img/sun.jpg");
+    background-repeat: no-repeat;
+}
+
+#box.orangeBox{
+    padding: 250px;
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-image: url("/img/moon.jpg");
+    background-repeat: no-repeat;
+}
+
+#changer {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    border-radius: 300px;
+    opacity: 0;
+  }
